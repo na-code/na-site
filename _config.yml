@@ -26,7 +26,7 @@ baseurl: "na-site" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
-linkedin_username: user-name-256ra147
+linkedin_username: under-dev
 
 # Build settings
 theme: minima
