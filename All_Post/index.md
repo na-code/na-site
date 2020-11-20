@@ -1,0 +1,1 @@
+layout : all_post
