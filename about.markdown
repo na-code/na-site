@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How this is website is created
+title: About
 permalink: /about
 ---
 
