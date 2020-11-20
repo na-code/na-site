@@ -1,7 +1,7 @@
 ---
 layout: page
-[Comment]: title: About
-[//]:  permalink: /about/
+title: About
+[Comment]:  permalink: /about/
 ---
 
 # How this website is created
