@@ -1,1 +1,1 @@
-layout : all_post
+layout: all_post
