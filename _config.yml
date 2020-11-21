@@ -20,7 +20,7 @@
 
 title: My Personal Work Experience Website
 author : na-code
-email: your-email@example.com
+#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Here are a short collection of activities I do outside of to stay up to speed with the workplace transformation, learn and train myself
 baseurl: "na-site" # the subpath of your site, e.g. /blog
