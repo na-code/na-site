@@ -1,4 +1,6 @@
-
+---
+layout: page
+---
 
 ### How this website is created
 
