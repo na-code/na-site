@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: post
 ---
 
 ### How this website is created
