@@ -2,6 +2,25 @@
 layout: default
 ---
 
+<!-- Test Formulaire de contact -->
+<form
+  action="https://formspree.io/f/mbjpkvdp"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
