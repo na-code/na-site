@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: none
 ---
 
 ### How this website is created
