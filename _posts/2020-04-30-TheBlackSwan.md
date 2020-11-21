@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: The Black Swan
 author: Nassim Nicolas Taleb
 categories: book
