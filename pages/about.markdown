@@ -1,9 +1,8 @@
 ---
 layout: post
 exclude: true
+title: How this website is created
 ---
-
-### How this website is created
 
 This is a self-made website using Jekyll with Minima theme.
 
