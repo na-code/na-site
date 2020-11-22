@@ -2,6 +2,7 @@
 layout: post
 title:  "Harvard Business Review newsletter"
 categories: newsletter
+author: Havard Business Review
 ---
 
 ## One tip every day from the best by HBR
