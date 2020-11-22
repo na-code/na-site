@@ -2,6 +2,7 @@
 layout: post
 title:  "DataScience newsletter"
 categories: newsletter
+author: www.datascienceweekly.org
 ---
 
 ##A hand-pick articles of DataScience every week
