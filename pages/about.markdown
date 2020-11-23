@@ -4,6 +4,8 @@ exclude: true
 title: How this website is created
 ---
 
+## How this website is created
+
 This is a self-made website using Jekyll with Minima theme.
 
 You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
