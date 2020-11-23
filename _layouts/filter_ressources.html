@@ -9,11 +9,11 @@ layout: default
 
   {{ content }}
 
-  <h2 class="post-list-heading"> TEST2 </h2>
+  <h2 class="post-list-heading"> TEST3 </h2>
   
   {%- if site.posts.size > 0 -%}
     
-    {% assign all_categories = site.pages | map: "categories"  | compact  %}
+    {% assign all_categories = site.categories | compact | uniq %}
     {% for tag in all_categories %}
        <h2 class="post-list-heading"> {{ tag }} </h2>
         - {{tag}}
