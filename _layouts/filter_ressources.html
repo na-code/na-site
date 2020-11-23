@@ -13,9 +13,10 @@ layout: default
   
   {%- if site.posts.size > 0 -%}
     
-    {% assign all_categories = site.pages | map: "category"  | compact | uniq %}
+    {% assign all_categories = site.pages | map: "category"  | compact  %}
     {% for tag in all_categories %}
        <h2 class="post-list-heading"> {{ tag }} </h2>
+        - {{tag}}
     {% endfor %}
     
   <!--
