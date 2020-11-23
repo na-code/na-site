@@ -1,4 +1,4 @@
 ---
-layout: all_post
+layout: filter_ressources
 title: Ressources
 ---
