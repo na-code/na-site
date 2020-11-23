@@ -22,5 +22,16 @@
 
   /* make sure colors have enough contrast! */
   color: #ffffff;
-  background-color: #9555af;
+  background-color: #6174f7;
+}
+
+.my-custom-button:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+.my-custom-button:hover {
+  color: #6174f7;
+  border-color: currentColor;
+  background-color: white;
 }
