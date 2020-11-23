@@ -9,11 +9,11 @@ layout: default
 
   {{ content }}
 
-  <h2 class="post-list-heading"> TEST4 </h2>
+  <h2 class="post-list-heading"> TEST5 </h2>
   
   {%- if site.posts.size > 0 -%}
     
-    {% assign all_categories = site.categories | join: ',' | split: ',' | compact | uniq | replace: """"""", " " | truncatewords: 1 %}
+    {% assign all_categories = site.categories | join: ',' | split: ',' | replace: """"""", " " | truncatewords: 1   | uniq %}
     {% for tag in all_categories %}
        <h2 class="post-list-heading"> {{ tag }} </h2>
     {% endfor %}
