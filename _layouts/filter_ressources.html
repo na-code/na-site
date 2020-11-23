@@ -11,13 +11,12 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     
-    {% assign all_categories = site.posts.categories | join: ',' | split: ',' | uniq %}
+    {% assign all_categories = site.posts | join: ',' | split: ',' | uniq %}
     {% for tag in all_categories %}
        <h2 class="post-list-heading"> {{ tag }} </h2>
     {% endfor %}
     
-    
-    <!-- h2 class="post-list-heading">{{ page.list_title | default: "Latest posts" }}</h2 -->
+    <!--
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -35,7 +34,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <!-- p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p -->
   {%- endif -%}
 
+-->
 </div>
