@@ -13,7 +13,7 @@ layout: default
   
   {%- if site.posts.size > 0 -%}
     
-    {% assign all_categories = site.categories | split: ',' | compact | uniq | replace """"""" " " | truncatewords: 1 %}
+    {% assign all_categories = site.categories | split: ',' | compact | uniq | replace: """"""", " " | truncatewords: 1 %}
     {% for tag in all_categories %}
        <h2 class="post-list-heading"> {{ tag }} </h2>
     {% endfor %}
