@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: jekyll
+categories: geek
 title: Useful link for website creation
 ---
 
