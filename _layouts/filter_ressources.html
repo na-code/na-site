@@ -9,6 +9,8 @@ layout: default
 
   {{ content }}
 
+  <h2 class="post-list-heading"> TEST </h2>
+  
   {%- if site.posts.size > 0 -%}
     
     {% assign all_categories = site.posts | join: ',' | split: ',' | uniq %}
@@ -34,7 +36,8 @@ layout: default
       {%- endfor -%}
     </ul>
 
-  {%- endif -%}
 
 -->
+  {%- endif -%}
+
 </div>
