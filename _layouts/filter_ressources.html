@@ -13,7 +13,7 @@ layout: default
     
     {% assign all_categories = site.posts.categories | map: 'tags' | join: ',' | split: ',' | uniq %}
     {% for tag in all_categories %}
-      {{ tag }}
+       <h2> {{ tag }} </h2>
     {% endfor %}
     
     
