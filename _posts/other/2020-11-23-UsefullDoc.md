@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: geek
+categories: coding
 title: Useful links
 ---
 
