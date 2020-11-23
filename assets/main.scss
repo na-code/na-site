@@ -4,21 +4,6 @@
 
 @import "minima";
 
-@mixin button-reset {
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.my-custom-button {
-  @include button-reset;
-  padding: 10px;
-  background-color: skyblue;
-}
-
 .my-custom-button {
   /* default for <button>, but useful for <a> */
   display: inline-block;
