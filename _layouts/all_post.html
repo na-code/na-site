@@ -8,13 +8,6 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-  
-  <!-- Test implementation filtre -->
-  <h2 class="post-link">TEST</h2>
-  {%- for category in site.categories -%}
-    <h2 class="post-link">{{category[0]}} </h2>
-  {%- endfor -%}
-  <!-- Test implementation filtre -->
 
   {%- if site.posts.size > 0 -%}
     <!-- h2 class="post-list-heading">{{ page.list_title | default: "Latest posts" }}</h2 -->
