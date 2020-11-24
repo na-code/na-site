@@ -10,6 +10,14 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
+  
+    <!-- List of all categories -->
+  <h2 class="post-list-heading">Main Categories:</h2>
+  {%- for category in site.categories -%}
+    <a class="default">{{category[0] | capitalize }} </a>
+  {%- endfor -%}
+  <br>
+  
     <h2 class="post-list-heading">{{ page.list_title | default: "Latest post" }}</h2> 
     <ul class="post-list">
       {%- for post in site.posts limit:1 -%}
@@ -27,12 +35,6 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <!-- List of all categories -->
-  <h2 class="post-list-heading">Main Categories:</h2>
-  {%- for category in site.categories -%}
-    <a class="post-link">{{category[0] | capitalize }} </a>
-  {%- endfor -%}
   
     <!-- p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p -->
   {%- endif -%}
