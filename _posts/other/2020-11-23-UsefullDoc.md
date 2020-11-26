@@ -6,6 +6,10 @@ title: Useful links
 
 Below is a small collection of useful links to go back to in the future
 
+## Syntax
+
+[Markdown syntax](https://www.markdownguide.org/basic-syntax/)
+
 ### To code for the website with Jekyll
 
 [Liquid template and pipe process](https://shopify.github.io/liquid/filters/join/)
